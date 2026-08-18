@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dae797ba-5d77-479b-8da6-dca80efeff7b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ArtZM9PvXcWWGKGrqpPDfbdMqy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ATV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ATV3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArraySc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Atv01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Atv02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AulaArrayMult.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AulaArrayMult2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookEditor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DO_While.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EX9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EXcomFOR.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex05SwingUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exe1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExemploP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForEX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuEX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pr1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProbB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelogiHora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sbr_SC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SomaCFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TabuadaFOR.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileEX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testeff.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/026583/OneDrive/2Ano/DS/Java/Aula 8atm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/026583/OneDrive/2Ano/DS/Java/Aula11/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\026583\OneDrive\2Ano\DS\Java\Aula 8atm" />
+      <recent name="C:\Users\gusta\OneDrive\2Ano\DS\Java\POO\Aula03" />
+      <recent name="C:\Users\gusta\OneDrive\2Ano\DS\Java\POO" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\026583\OneDrive\2Ano\DS\Java" />
+      <recent name="C:\Users\gusta\OneDrive\2Ano\DS\Java\out" />
+      <recent name="C:\Users\gusta\OneDrive\2Ano\DS\Java" />
+      <recent name="C:\Users\gusta\OneDrive\2Ano\DS\Java\Curso em VD" />
+      <recent name="C:\Users\026583\OneDrive\2Ano\DS\Java\Aula 6" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ex05SwingUI">
+    <configuration name="Ex05SwingUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex05SwingUI" />
+      <module name="DS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ter" />
+      <module name="DS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testeff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeff" />
+      <module name="DS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ex05SwingUI" />
+        <item itemvalue="Application.ter" />
+        <item itemvalue="Application.testeff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae797ba-5d77-479b-8da6-dca80efeff7b" name="Changes" comment="" />
+      <created>1773362578361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773362578361</updated>
+      <workItem from="1773362673357" duration="1505000" />
+      <workItem from="1773448108333" duration="5799000" />
+      <workItem from="1773657195351" duration="5460000" />
+      <workItem from="1773876052987" duration="1681000" />
+      <workItem from="1773878130915" duration="4097000" />
+      <workItem from="1774264036932" duration="7532000" />
+      <workItem from="1774869987648" duration="7041000" />
+      <workItem from="1775180958557" duration="170000" />
+      <workItem from="1775181347899" duration="5183000" />
+      <workItem from="1775473133165" duration="4406000" />
+      <workItem from="1776035376118" duration="8580000" />
+      <workItem from="1776075185755" duration="7212000" />
+      <workItem from="1776187586302" duration="2812000" />
+      <workItem from="1776193053612" duration="8223000" />
+      <workItem from="1776452063245" duration="11125000" />
+      <workItem from="1776639937748" duration="199000" />
+      <workItem from="1776707603794" duration="162000" />
+      <workItem from="1776810111041" duration="3428000" />
+      <workItem from="1777037483632" duration="3800000" />
+      <workItem from="1777247239937" duration="962000" />
+      <workItem from="1777251958112" duration="271000" />
+      <workItem from="1777253311854" duration="1147000" />
+      <workItem from="1777664226933" duration="8479000" />
+      <workItem from="1777892237422" duration="47000" />
+      <workItem from="1778611600517" duration="5639000" />
+      <workItem from="1778703886225" duration="17736000" />
+      <workItem from="1778868552142" duration="859000" />
+      <workItem from="1779026260044" duration="712000" />
+      <workItem from="1779102148529" duration="5062000" />
+      <workItem from="1779389262240" duration="3794000" />
+      <workItem from="1780099473332" duration="10017000" />
+      <workItem from="1780624673982" duration="761000" />
+      <workItem from="1780675400163" duration="597000" />
+      <workItem from="1780966790711" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Aula11/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,53 @@
+Exercício 8 — Números acima da média
+Objetivo: Mostrar apenas os números maiores que a média
+Entrada:
+Quantos números? 5
+4
+6
+8
+2
+10
+Saída:
+Média: 6.0
+Números acima da média:
+8
+10
+Exercício 9 — Posição do maior número
+Objetivo: Mostrar o maior número e sua posição no array
+Entrada:
+Quantos números? 4
+5
+9
+2
+7
+Saída:
+Maior número: 9
+Posição: 1
+Exercício 10 — Inverter array
+Objetivo: Mostrar os números em ordem inversa
+Entrada:
+Quantos números? 5
+1
+2
+3
+4
+5
+Saída:
+Ordem inversa:
+5
+4
+3
+2
+1
+Exercício 11 — Contar números negativos
+Objetivo: Contar quantos números digitados são negativos
+Entrada:
+Quantos números? 6
+-2
+5
+-1
+3
+0
+-7
+Saída:
+Quantidade de negativos: 3
