@@ -1,4 +1,4 @@
-package Aula5;
+package POO.Aula5;
 import java.util.Scanner;
 
 public class Main {

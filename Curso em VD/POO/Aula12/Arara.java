@@ -1,4 +1,4 @@
-package Aula12;
+package POO.Aula12;
 
 public class Arara extends Ave {
 

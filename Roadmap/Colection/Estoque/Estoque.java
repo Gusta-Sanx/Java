@@ -1,10 +1,10 @@
-package Estoque;
+package Colection.Estoque;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Estoque {
-    private Map<Integer,Produto> produtos = new HashMap<>();
+    private Map<Integer, Produto> produtos = new HashMap<>();
 
     public Map<Integer, Produto> getProdutos() {
         return produtos;

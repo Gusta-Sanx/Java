@@ -1,4 +1,4 @@
-package Aula04ex;
+package POO.Aula04ex;
 
 public class CelularEx4 {
     private String modelo;

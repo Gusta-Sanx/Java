@@ -1,4 +1,4 @@
-package Aula02ex;
+package POO.Aula02ex;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package Aula8;
+package POO.Aula8;
 
 public interface Publicacao {
 

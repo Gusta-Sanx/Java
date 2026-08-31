@@ -1,4 +1,4 @@
-package Aula5;
+package POO.Aula5;
 
 public class Banco {
     public int numConta;

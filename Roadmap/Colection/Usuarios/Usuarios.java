@@ -1,4 +1,4 @@
-package Usuarios;
+package Colection.Usuarios;
 
 import java.util.HashSet;
 import java.util.Set;

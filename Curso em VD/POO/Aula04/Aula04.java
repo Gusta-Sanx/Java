@@ -1,4 +1,4 @@
-package Aula04;
+package POO.Aula04;
 
 
 public class Aula04 {

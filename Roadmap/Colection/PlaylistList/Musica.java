@@ -1,4 +1,4 @@
-package PlaylistList;
+package Colection.PlaylistList;
 
 public class Musica extends Playlist{
     private String titulo;

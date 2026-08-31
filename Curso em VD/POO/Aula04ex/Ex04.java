@@ -1,4 +1,4 @@
-package Aula04ex;
+package POO.Aula04ex;
 
 public class Ex04 {
     public static void main(String[] args) {

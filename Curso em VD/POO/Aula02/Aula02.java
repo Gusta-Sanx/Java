@@ -1,4 +1,4 @@
-package Aula02;
+package POO.Aula02;
 
 public class Aula02 {
     public static void main(String[] args) {

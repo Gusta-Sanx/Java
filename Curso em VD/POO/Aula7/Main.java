@@ -1,4 +1,4 @@
-package Aula7;
+package POO.Aula7;
 
 public class Main {
     public static void main(String[] args) {

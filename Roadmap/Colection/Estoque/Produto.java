@@ -1,6 +1,6 @@
-package Estoque;
+package Colection.Estoque;
 
-public class Produto extends Estoque{
+public class Produto extends Estoque {
     private int codigo;
     private String nome;
     private double preco;

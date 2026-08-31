@@ -1,4 +1,4 @@
-package PlaylistList;
+package Colection.PlaylistList;
 
 public class Main {
     public static void main(String[] args) {

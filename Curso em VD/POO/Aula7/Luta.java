@@ -1,4 +1,4 @@
-package Aula7;
+package POO.Aula7;
 
 
 import java.util.Random;

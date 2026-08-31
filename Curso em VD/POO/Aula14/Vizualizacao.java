@@ -1,4 +1,4 @@
-package Aula14;
+package POO.Aula14;
 
 public class Vizualizacao {
     private Gafanhoto espec;

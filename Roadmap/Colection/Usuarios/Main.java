@@ -1,4 +1,4 @@
-package Usuarios;
+package Colection.Usuarios;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Aula13;
+package POO.Aula13;
 
 public class Cachorro extends Lobo{
     @Override

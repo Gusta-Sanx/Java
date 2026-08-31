@@ -1,4 +1,4 @@
-package Aula12;
+package POO.Aula12;
 
 public abstract class Animal {
     protected double peso;

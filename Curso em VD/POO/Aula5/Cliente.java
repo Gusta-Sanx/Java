@@ -1,4 +1,4 @@
-package Aula5;
+package POO.Aula5;
 
 public class Cliente {
     private String nome;
