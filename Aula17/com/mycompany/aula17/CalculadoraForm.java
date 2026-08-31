@@ -3,7 +3,6 @@ package com.mycompany.aula17;
 public class CalculadoraForm extends javax.swing.JFrame {
     private static final String TEXTO_INICIAL = "0";
     private static final String TEXTO_ERRO = "Erro";
-    private static final String TEXTO_DIVISAO_ZERO = "Impossível dividir por 0";
 
     private CalculadoraP calc;
     private boolean limparDisplay;
@@ -38,7 +37,7 @@ public class CalculadoraForm extends javax.swing.JFrame {
         txtDisplay.setText(TEXTO_INICIAL);
     }
 
-    private void digitarNum(String texto) {
+    private void digitarNumero(String texto) {
         String display = txtDisplay.getText();
 
         if (deveLimparAntesDeDigitar(display)) {
@@ -61,8 +60,7 @@ public class CalculadoraForm extends javax.swing.JFrame {
     private boolean deveLimparAntesDeDigitar(String display) {
         return limparDisplay
                 || display.equals(TEXTO_INICIAL)
-                || display.equals(TEXTO_ERRO)
-                || display.equals(TEXTO_DIVISAO_ZERO);
+                || display.equals(TEXTO_ERRO);
     }
 
     private void selecionarOperador(String op) {
@@ -100,16 +98,10 @@ public class CalculadoraForm extends javax.swing.JFrame {
         limparDisplay = true;
     }
 
-    private void mostrarDivisaoPorZero() {
-        txtDisplay.setText(TEXTO_DIVISAO_ZERO);
-        limparDisplay = true;
-    }
-
     private boolean displayEstaInvalido() {
         String display = txtDisplay.getText();
         return display.isEmpty()
-                || display.equals(TEXTO_ERRO)
-                || display.equals(TEXTO_DIVISAO_ZERO);
+                || display.equals(TEXTO_ERRO);
     }
 
     private void calcularResultado() {
@@ -124,7 +116,7 @@ public class CalculadoraForm extends javax.swing.JFrame {
             txtDisplay.setText(formatarResultado(resultado));
             limparDisplay = true;
         } catch (ArithmeticException e) {
-            mostrarDivisaoPorZero();
+            mostrarErro();
         } catch (NumberFormatException e) {
             mostrarErro();
         }
@@ -144,7 +136,7 @@ public class CalculadoraForm extends javax.swing.JFrame {
     private void apagarUltimo() {
         String display = txtDisplay.getText();
 
-        if (display.equals(TEXTO_ERRO) || display.equals(TEXTO_DIVISAO_ZERO) || display.length() <= 1) {
+        if (display.equals(TEXTO_ERRO) || display.length() <= 1) {
             txtDisplay.setText(TEXTO_INICIAL);
         } else {
             txtDisplay.setText(display.substring(0, display.length() - 1));
@@ -152,47 +144,47 @@ public class CalculadoraForm extends javax.swing.JFrame {
     }
 
     private void btnZeroActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("0");
+        digitarNumero("0");
     }
 
     private void btnUmActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("1");
+        digitarNumero("1");
     }
 
     private void btnDoisActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("2");
+        digitarNumero("2");
     }
 
     private void btnTresActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("3");
+        digitarNumero("3");
     }
 
     private void btnQuatroActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("4");
+        digitarNumero("4");
     }
 
     private void btnCincoActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("5");
+        digitarNumero("5");
     }
 
     private void btnSeisActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("6");
+        digitarNumero("6");
     }
 
     private void btnSeteActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("7");
+        digitarNumero("7");
     }
 
     private void btnOitoActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("8");
+        digitarNumero("8");
     }
 
     private void btnNoveActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("9");
+        digitarNumero("9");
     }
 
     private void btnVirgulaActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum(",");
+        digitarNumero(",");
     }
 
     private void btnMaisActionPerformed(java.awt.event.ActionEvent evt) {

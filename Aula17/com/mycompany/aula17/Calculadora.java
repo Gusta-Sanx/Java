@@ -13,7 +13,6 @@ public class Calculadora extends javax.swing.JDialog {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Calculadora.class.getName());
     private static final String TEXTO_INICIAL = "0";
     private static final String TEXTO_ERRO = "Erro";
-    private static final String TEXTO_DIVISAO_ZERO = "Impossível dividir por 0";
 
     private CalculadoraP calc;
     private boolean limparDisplay;
@@ -53,7 +52,7 @@ public class Calculadora extends javax.swing.JDialog {
         jButton24.addActionListener(this::jButton24ActionPerformed);
     }
 
-    private void digitarNum(String texto) {
+    private void digitarNumero(String texto) {
         String display = txtDisplayDialog.getText();
 
         if (deveLimparAntesDeDigitar(display)) {
@@ -76,8 +75,7 @@ public class Calculadora extends javax.swing.JDialog {
     private boolean deveLimparAntesDeDigitar(String display) {
         return limparDisplay
                 || display.equals(TEXTO_INICIAL)
-                || display.equals(TEXTO_ERRO)
-                || display.equals(TEXTO_DIVISAO_ZERO);
+                || display.equals(TEXTO_ERRO);
     }
 
     private void selecionarOperador(String op) {
@@ -102,7 +100,7 @@ public class Calculadora extends javax.swing.JDialog {
             txtDisplayDialog.setText(formatarResultado(resultado));
             limparDisplay = true;
         } catch (ArithmeticException e) {
-            mostrarDivisaoPorZero();
+            mostrarErro();
         } catch (NumberFormatException e) {
             mostrarErro();
         }
@@ -134,7 +132,7 @@ public class Calculadora extends javax.swing.JDialog {
     private void apagarUltimo() {
         String display = txtDisplayDialog.getText();
 
-        if (display.equals(TEXTO_ERRO) || display.equals(TEXTO_DIVISAO_ZERO) || display.length() <= 1) {
+        if (display.equals(TEXTO_ERRO) || display.length() <= 1) {
             txtDisplayDialog.setText(TEXTO_INICIAL);
         } else {
             txtDisplayDialog.setText(display.substring(0, display.length() - 1));
@@ -146,36 +144,30 @@ public class Calculadora extends javax.swing.JDialog {
         limparDisplay = true;
     }
 
-    private void mostrarDivisaoPorZero() {
-        txtDisplayDialog.setText(TEXTO_DIVISAO_ZERO);
-        limparDisplay = true;
-    }
-
     private boolean displayEstaInvalido() {
         String display = txtDisplayDialog.getText();
         return display.isEmpty()
-                || display.equals(TEXTO_ERRO)
-                || display.equals(TEXTO_DIVISAO_ZERO);
+                || display.equals(TEXTO_ERRO);
     }
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("4");
+        digitarNumero("4");
     }
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("6");
+        digitarNumero("6");
     }
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("5");
+        digitarNumero("5");
     }
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("2");
+        digitarNumero("2");
     }
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("3");
+        digitarNumero("3");
     }
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,7 +179,7 @@ public class Calculadora extends javax.swing.JDialog {
     }
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("0");
+        digitarNumero("0");
     }
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,7 +187,7 @@ public class Calculadora extends javax.swing.JDialog {
     }
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {
-        digitarNum("7");
+        digitarNumero("7");
     }
 
     /**
@@ -396,7 +388,7 @@ public class Calculadora extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-        digitarNum("8");
+        digitarNumero("8");
     }//GEN-LAST:event_jButton25ActionPerformed
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
@@ -404,7 +396,7 @@ public class Calculadora extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton26ActionPerformed
 
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
-        digitarNum("9");
+        digitarNumero("9");
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
@@ -416,7 +408,7 @@ public class Calculadora extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        digitarNum("1");
+        digitarNumero("1");
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
@@ -428,7 +420,7 @@ public class Calculadora extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton27ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        digitarNum(",");
+        digitarNumero(",");
     }//GEN-LAST:event_jButton22ActionPerformed
 
     /**
