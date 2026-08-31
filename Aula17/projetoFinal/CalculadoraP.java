@@ -1,4 +1,3 @@
-
 package com.mycompany.aula17;
 
 public class CalculadoraP {
@@ -39,6 +38,7 @@ public class CalculadoraP {
                 if (segundoNumero == 0) {
                     throw new ArithmeticException("Não é possível dividir por zero");
                 }
+
                 return primeiroNumero / segundoNumero;
 
             default:
