@@ -1,8 +1,6 @@
-
 package com.mycompany.aula17;
 
 public class CalculadoraP {
-
     private double primeiroNumero;
     private double segundoNumero;
     private String operacao;
@@ -28,19 +26,15 @@ public class CalculadoraP {
         switch (operacao) {
             case "+":
                 return primeiroNumero + segundoNumero;
-
             case "-":
                 return primeiroNumero - segundoNumero;
-
             case "*":
                 return primeiroNumero * segundoNumero;
-
             case "/":
                 if (segundoNumero == 0) {
                     throw new ArithmeticException("Não é possível dividir por zero");
                 }
                 return primeiroNumero / segundoNumero;
-
             default:
                 return segundoNumero;
         }

@@ -5,4 +5,11 @@ out/
 target/
 *.log
 *.iml
-pom.xml
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+.nb-gradle/
