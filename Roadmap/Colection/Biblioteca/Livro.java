@@ -10,17 +10,27 @@ public class Livro extends Biblioteca{
     private Set<String> categorias = new HashSet<>();
 
     public Livro(int isbn, String titulo, String autor) {
-        this.isbn = isbn;
+        setIsbn(isbn);
         this.titulo = titulo;
         this.autor = autor;
     }
 
     public int getIsbn() {
         return isbn;
+
     }
 
     public void setIsbn(int isbn) {
-        this.isbn = isbn;
+        String isbnS = String.valueOf(isbn); //Integer.toString() metodo alt
+        if(isbnS == null){
+            throw new IllegalArgumentException("Login nao pode ser nulo");
+        }
+
+        isbnS = isbnS.replaceAll("\\s*", "");
+
+        if (isbnS.matches("^\\d{4}$")){
+            this.isbn = Integer.parseInt(isbnS);
+        }else { throw new IndexOutOfBoundsException("<Isbn invalida>");}
     }
 
     public String getTitulo() {
