@@ -3,7 +3,7 @@ package Colection.Biblioteca;
 
 import java.util.*;
 
-public class Livro extends Biblioteca{
+public class    Livro {
     private int isbn;
     private String titulo;
     private String autor;
@@ -68,6 +68,9 @@ public class Livro extends Biblioteca{
             }else{ throw new IllegalArgumentException("Categoria invalida"); }
         }
 
+
+
+
     @Override
     public String toString() {
         return "Livro{" +
@@ -77,5 +80,6 @@ public class Livro extends Biblioteca{
                 ", categorias=" + categorias +
                 '}';
     }
-}
+    }
+
 

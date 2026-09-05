@@ -19,6 +19,7 @@ public class Biblioteca {
         }
     }
 
+
     public Livro buscarLivro(int isbn){
         return livrosPorIsbn.get(isbn);
     }
@@ -44,5 +45,11 @@ public class Biblioteca {
             }
         }
         return listaCat;
+    }
+    static class LivroComparator implements Comparator<Livro>{
+        @Override
+        public int compare(Livro o1, Livro o2) {
+            return Integer.compare(o1.getIsbn(), o2.getIsbn());
+        }
     }
 }
