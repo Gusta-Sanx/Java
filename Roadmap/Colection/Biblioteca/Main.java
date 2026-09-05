@@ -29,11 +29,8 @@ public class Main {
         ordemIsbn.add(new Livro(1234,"Noites Brancas","Doto"));
 
 
-//        while (!ordemIsbn.isEmpty()){
-//            System.out.println(ordemIsbn.poll());
-//        }
-        for(Livro livros : ordemIsbn){
-            System.out.println(livros);
+        while (!ordemIsbn.isEmpty()){
+            System.out.println(ordemIsbn.poll());
         }
         System.out.println("+++++++++");
 //        Collections.sort(ordemIsbn,new Biblioteca.LivroComparator().reversed());

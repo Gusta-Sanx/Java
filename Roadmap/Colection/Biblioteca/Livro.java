@@ -9,13 +9,13 @@ public class    Livro {
     private String autor;
     private Set<String> categorias = new HashSet<>();
 
-    public Livro(int isbn, String titulo, String autor) {
+    public Livro(Integer isbn, String titulo, String autor) {
         setIsbn(isbn);
         this.titulo = titulo;
         this.autor = autor;
     }
 
-    public int getIsbn() {
+    public Integer getIsbn() {
         return isbn;
 
     }

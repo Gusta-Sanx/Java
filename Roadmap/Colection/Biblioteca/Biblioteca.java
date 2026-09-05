@@ -49,7 +49,7 @@ public class Biblioteca {
     static class LivroComparator implements Comparator<Livro>{
         @Override
         public int compare(Livro o1, Livro o2) {
-            return Integer.compare(o1.getIsbn(), o2.getIsbn());
+            return o1.getIsbn().compareTo(o2.getIsbn());
         }
     }
 }
