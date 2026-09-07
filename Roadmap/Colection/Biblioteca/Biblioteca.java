@@ -5,6 +5,7 @@ import java.util.*;
 public class Biblioteca {
     private List<Livro> livros = new ArrayList<>();
     private Map<Integer, Livro> livrosPorIsbn = new HashMap<>();
+    private Queue<Cliente> filaClientes = new PriorityQueue<>(new ClienteComparator());
 
     public Biblioteca() {
     }
@@ -30,7 +31,7 @@ public class Biblioteca {
         }else {
             livros.remove(livrosPorIsbn.get(isbn));
             livrosPorIsbn.remove(isbn);
-            return true; //remove e retona o sucesso
+                return true; //remove e retona o sucesso
         }
     }
     public List<Livro> listarLivros(){
@@ -46,6 +47,33 @@ public class Biblioteca {
         }
         return listaCat;
     }
+
+    public boolean adicinarClienteFila(Cliente cliente){
+        if (filaClientes.contains(cliente)){ throw new IllegalArgumentException("Cliente ja esta na fila");}
+       else{return filaClientes.offer(cliente);}
+    }
+
+    public Cliente chamarProximoCliente(){
+        return filaClientes.poll(); //vai retirar o cliente da fila (sout e esperado para ver quem e retirado)
+    }
+
+    public Cliente verProximoCliente(){
+        return filaClientes.peek(); //vai so ver quem e  cliente sem removelo!
+    }
+
+    public int quantidadeFila(){
+        return filaClientes.size(); //retorna so o tamanho
+    }
+    public void fecharLoja(){
+        for (Cliente cliente : filaClientes) filaClientes.poll();
+    }
+    static class ClienteComparator implements Comparator<Cliente>{
+        @Override
+        public int compare(Cliente c1, Cliente c2) {
+            return c1.getPrioriade().compareTo(c2.getPrioriade());
+        }
+    }
+
     static class LivroComparator implements Comparator<Livro>{
         @Override
         public int compare(Livro o1, Livro o2) {

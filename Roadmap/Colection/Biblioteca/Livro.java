@@ -1,9 +1,8 @@
 package Colection.Biblioteca;
 
-
 import java.util.*;
 
-public class    Livro {
+public class Livro {
     private int isbn;
     private String titulo;
     private String autor;
@@ -20,17 +19,15 @@ public class    Livro {
 
     }
 
-    public void setIsbn(int isbn) {
-        String isbnS = String.valueOf(isbn); //Integer.toString() metodo alt
-        if(isbnS == null){
-            throw new IllegalArgumentException("Login nao pode ser nulo");
-        }
+    public void setIsbn(Integer isbn) {
+        if(isbn == null) throw new NullPointerException("ISBN nao pode ser nulo");
+        String isbnS = Integer.toString(isbn);
 
         isbnS = isbnS.replaceAll("\\s*", "");
 
         if (isbnS.matches("^\\d{4}$")){
             this.isbn = Integer.parseInt(isbnS);
-        }else { throw new IndexOutOfBoundsException("<Isbn invalida>");}
+        }else { throw new IllegalArgumentException("<Isbn invalida>");}
     }
 
     public String getTitulo() {
